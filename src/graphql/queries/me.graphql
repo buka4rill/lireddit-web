@@ -1,0 +1,6 @@
+# Check if currently logged in
+query Me {
+  me {
+    ...RegularUser
+  }
+}

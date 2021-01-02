@@ -16,7 +16,7 @@ type InputFieldProps = InputHTMLAttributes<HTMLInputElement> & {
 export const InputField: React.FC<InputFieldProps> = ({ size, ...props}) => {
     // Hook from Formik
     const [field, { error }] = useField(props);
-    console.log({ error });
+    // console.log({ error });
     
     return (
         <FormControl isInvalid={!!error}>
