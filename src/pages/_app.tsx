@@ -6,11 +6,11 @@ const client = createClient({
   // Our GraphQl server
   url: 'http://localhost:4000/graphql',
   fetchOptions: {
-    credentials: "include",
+    credentials: "include", // send cookie
   }
 });
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: any) {
   return (
     // URQL Provider
     <Provider value={client}> 
