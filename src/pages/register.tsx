@@ -1,11 +1,11 @@
 // 'rh' for react-typescript snippet
 import React from 'react';
 import { Form, Formik } from "formik";
-import { FormControl, FormLabel, Input, FormErrorMessage, Box, Button } from '@chakra-ui/react';
+import { Box, Button } from '@chakra-ui/react';
 import { Wrapper } from '../components/Wrapper';
 import { InputField } from '../components/InputField';
 // import { useMutation } from 'urql';
-import { FieldError, useRegisterMutation } from '../generated/graphql'; // generate graphql queries & hooks
+import { useRegisterMutation } from '../generated/graphql'; // generate graphql queries & hooks
 import { toErrorMap } from '../utils/toErrorMap';
 import { useRouter } from "next/router";
 

@@ -9,9 +9,9 @@ import { useLoginMutation } from '../generated/graphql'; // generate graphql que
 import { toErrorMap } from '../utils/toErrorMap';
 import { useRouter } from "next/router";
 
-interface loginProps {
+// interface loginProps {
 
-}
+// }
 
 /**
  * Login Page Notes

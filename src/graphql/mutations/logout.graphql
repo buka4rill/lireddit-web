@@ -1,0 +1,6 @@
+# yarn gen to generate the graphql types to 'generated/graphql.tsx'
+
+mutation Logout {
+  logout
+}
+  
